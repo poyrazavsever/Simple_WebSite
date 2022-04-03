@@ -1,0 +1,18 @@
+
+:root{
+    /* Colors */
+
+    --color-a:#000000;
+    --color-b:#005a0f;
+    --color-c:#00a30e;
+    --color-d:#181818;
+
+    /* Fonts */
+    --font-a: 'Open Sans', sans-serif;
+    --font-b: 'Oswald', sans-serif;
+    --font-c: 'Roboto', sans-serif;
+    --font-d: 'Titillium Web', sans-serif;
+    --font-e:'Rubik', sans-serif;
+    --font-f:'Rubik Glitch', cursive;
+    --font-code:'Press Start 2P', cursive;
+}

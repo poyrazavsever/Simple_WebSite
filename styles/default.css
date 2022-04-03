@@ -1,0 +1,37 @@
+/* CSS libks */
+@import url('variable.css');
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+ul{list-style-type:none;}
+li{ display: inline-block;}
+
+a{
+    text-decoration: none;
+    font-family: var(--font-c);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-a);
+}
+p{
+    font-family: var(--font-c);
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 9px;
+    }
+  }

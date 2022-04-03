@@ -1,0 +1,48 @@
+@import url('variable.css');
+
+.sidenav {
+    height: 100%;
+    width: 0; /*Genişliği javascriptle değiştir*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:var(--color-b);
+    overflow-x: hidden; /*Yatay kaydırmayı devre dışı bırak */
+    transition: 0.5s;/* Sidenav'da kaymaya 0,5 saniye geçiş efekti */
+    padding-top: 60px; /*İçeriği üstten 60 piksel yerleştirin */
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  /*Menüler üzerine gelince  renklerini değiştirin */
+  
+  .sidenav a:hover {
+    color:rgb(182, 172, 172); 
+  }
+  /*Kapat düğmesini konumlandırın ve stillendirin (sağ üst köşe) */
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+  }
+
+  .menuopenbtn{
+    color: var(--color-b);
+    font-size: 5rem;
+    cursor: pointer;
+    position: fixed;
+  }
+  /* Yüksekliğin 450 pikselden az olduğu daha küçük ekranlarda, 
+  sidenav stilini değiştirin 
+  (daha az dolgu ve daha küçük bir yazı tipi boyutu) */

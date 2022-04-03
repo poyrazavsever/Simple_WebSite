@@ -1,0 +1,264 @@
+/* Font Links */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300&family=Oswald:wght@200;300;500&family=Press+Start+2P&family=Roboto:wght@100;300;500&family=Rubik+Glitch&family=Rubik:wght@300;400;500&family=Titillium+Web:wght@200;300&display=swap');
+
+/* Css Links */
+@import url('variable.css');
+@import url('default.css');
+@import url('menu.css');
+@import url('animations.css');
+
+/* Style Section */
+
+body{
+    background-color: var(--color-d);
+}
+
+/* HEADER */
+.header{
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-first{
+    text-align: center;
+}
+.header-main-title{
+    color:var(--color-b);
+    font-size:10rem;
+    font-family: var(--font-d);
+}
+.ts-image{
+    padding-top: 3rem;
+    width: 450px;
+    background-color: var(--color-b);
+    border-radius:100%;
+}
+
+/* HAKKIMDA */
+
+.about-main-title{
+    color: var(--color-b);
+    font-size: 7rem;
+    width: 30%;
+    border-bottom: 1px solid var(--color-c);
+    margin: auto;
+    text-align: center;
+    font-family: var(--font-a);
+    margin-bottom: 4rem;
+    padding-bottom: .5rem;
+}
+.about-container{
+    width: 70%;
+    margin: auto;
+}
+.about-myself{
+    padding-top:6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-title{
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+    color: var(--color-b);
+    text-align: center;
+    font-family: var(--font-code);
+}
+.about-text{
+    color: var(--color-c);
+    margin-top: 2rem;
+    font-size: 2.4rem;
+}
+.text-part{
+    text-align: center;
+}
+
+.about-image{
+    width: 150px;
+    height: 150px;
+    background-color: var(--color-b);
+    border-radius: 100%;
+    margin: 0 10rem;
+    color: black;
+
+}
+
+/* TALENTS */
+.matrix-gif{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+#mat-gif{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    opacity: .6;
+}
+.talents-main-title{
+    color: var(--color-c);
+    font-size: 7rem;
+    width: 30%;
+    border-bottom: 1px solid var(--color-c);
+    margin: auto;
+    text-align: center;
+    font-family: var(--font-a);
+    margin-bottom: 10rem;
+    padding-bottom: .5rem;
+}
+
+.slider-talents{
+    width: 550px;
+    margin: auto;
+    border: 5px solid var(--color-c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 10px 10px rgba(32, 112, 0, 0.5), -5px 10px 10px rgba(32, 112, 0, 0.5);
+    border-radius: 1rem;
+}
+.t-slider-title{
+    font-size: 5rem;
+    color: var(--color-c);
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.slider-image{
+    width: 550px;
+    height: 600px;
+    background-color: var(--color-c);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.t-slider-image{
+    width: 400px;
+    padding: 2.5rem 1.5rem;
+}
+
+.arrow-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+.arrow-btn:hover{
+    transform: rotate(360deg);
+}
+
+/* CONTACT */
+.contact-main-title{
+    color: var(--color-b);
+    font-size: 7rem;
+    width: 30%;
+    border-bottom: 1px solid var(--color-c);
+    margin: auto;
+    text-align: center;
+    font-family: var(--font-a);
+    margin-bottom: 10rem;
+    padding-bottom: .5rem;
+}
+
+.contact-forms{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid var(--color-c);
+    background-color:transparent;
+    height: 40px;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: var(--color-b);
+    padding:2.5rem 1rem;
+}
+.contact-form::placeholder{
+    font-size: 2rem;
+    color: var(--color-b);
+}
+.contact-form:focus{
+    outline: none;
+}
+#messages{
+    height: 300px;
+}
+.submit-btn{
+    width: 20%;
+    height: 40px;
+    background-color: transparent;
+    color: var(--color-c);
+    border: 1px solid var(--color-c);
+    transition: all 0.5s;
+}
+.submit-btn:hover{
+    background-color: var(--color-c);
+    color: #000;
+}
+.social-links{
+    padding-left: 12rem;
+    display: inline;
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    background-color:var(--color-b);
+    border: none;
+    border-radius: 100%;
+    transition: all .3s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.social-link:hover{
+    transform: rotate(360deg);
+}
+.social-image{
+    width: 35px;
+    color: white;
+}
+
+/* FOOTER */
+.footer{
+    width: 50%;
+    margin: auto;
+}
+#footer-title{
+    font-size: 2rem;
+    color: var(--color-b);
+    text-align: center;
+}
+
+#footer-text{
+    font-size: 1.5rem;
+    color: var(--color-b);
+    text-align: center;
+}
+/* GİF */
+
+.click-gif{
+    width: 80px;
+    display: block;
+}
+.happy-gif{
+    position: absolute;
+    width: 800px;
+    height: 1000px;
+    margin-top: auto;
+    z-index: -5;
+}
